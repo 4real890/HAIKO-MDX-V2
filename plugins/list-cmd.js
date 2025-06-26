@@ -24,10 +24,10 @@ cmd({
         let menuText = `╭───『 * COMMAND LIST* 』───⳹
 │
 │    *BOT INFORMATION*
-│ •   Bot Name: *HAIKO-MDX-V2*
+│ •   Bot Name: *𝟐𝟒𝐑𝐄𝐀𝐋 𝐗𝐌𝐃*
 │ •   Owner: ${config.OWNER_NAME}
 │ •   Prefix: [${config.PREFIX}]
-│ •   Platform: GITHUB 
+│ •   Platform: REPLIT
 │ •   Version: 2.0.0
 │ •   Runtime: ${runtime(process.uptime())}
 │
@@ -73,7 +73,7 @@ cmd({
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/wio44d.jpg` },
+                image: { url: `https://files.catbox.moe/lfd2i1.jpg` },
                 caption: menuText,
                 contextInfo: {
                     mentionedJid: [m.sender],
