@@ -53,12 +53,12 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/PROFESSEURMDX/HAIKO-MDX-V2';
+    const githubRepo = 'https://instagram.com/ligang_.4real';
 
     // Check update status
-    let updateMessage = `✅ Your HAIKO-MDX-V2 bot is up-to-date!`;
+    let updateMessage = `✅ Your 𝟐𝟒𝐑𝐄𝐀𝐋 𝐗𝐌𝐃 bot is up-to-date!`;
     if (localVersion !== latestVersion) {
-      updateMessage = `🚀 Your HAIKO-MDX-V2 bot is outdated!
+      updateMessage = `🚀 Your 𝟐𝟒𝐑𝐄𝐀𝐋 𝐗𝐌𝐃 bot is outdated!
 🔹 *Current Version:* ${localVersion}
 🔹 *Latest Version:* ${latestVersion}
 
@@ -66,24 +66,19 @@ Use *.update* to update.`;
     }
 
     const statusMessage = `🌟 *Good ${new Date().getHours() < 12 ? 'Morning' : 'Night'}, ${pushname}!* 🌟\n\n` +
-      `📌 *Bot Name:* HAIKO-MDX-V2\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
+      `📌 *Bot Name:* 𝟐𝟒𝐑𝐄𝐀𝐋 𝐗𝐌𝐃\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${latestChangelog}\n\n` +
-      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [PROFESSEURMDX](https://github.com/PROFESSEURMDX)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
+      `⭐ *Ig profilee:* ${githubRepo}\n👤 *Owner:* [qutaybah](https://instagram.com/ligang_.4real)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to follow & and like the profilee!*`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
-      image: { url: 'https://files.catbox.moe/cad2f0.jpg' },
+      image: { url: 'https://files.catbox.moe/jzjli6.jpeg' },
       caption: statusMessage,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363372853772240@newsletter',
-          newsletterName: '𝐇𝐙𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐',
-          serverMessageId: 143
-        }
+        isForwarded: true
       }
     }, { quoted: mek });
   } catch (error) {
