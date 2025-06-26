@@ -27,11 +27,11 @@ cmd({
 
     await conn.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx* 🚀\n✨ Prompt: *${q}*`
+      caption: `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs* 🚀\n✨ Prompt: *${q}*`
     });
 
   } catch (error) {
-    console.error("FluxAI Error:", error);
+    console.error("FluxAI Error:", error); 
     reply(`An error occurred: ${error.response?.data?.message || error.message || "Unknown error"}`);
   }
 });
@@ -61,7 +61,7 @@ cmd({
 
     await conn.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx*🚀\n✨ Prompt: *${q}*`
+      caption: `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs*🚀\n✨ Prompt: *${q}*`
     });
 
   } catch (error) {
@@ -95,7 +95,7 @@ cmd({
 
     await conn.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx*🚀\n✨ Prompt: *${q}*`
+      caption: `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs*🚀\n✨ Prompt: *${q}*`
     });
 
   } catch (error) {
