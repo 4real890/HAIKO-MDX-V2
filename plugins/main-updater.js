@@ -26,10 +26,10 @@ cmd({
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
-            return reply("*✅ ʏᴏᴜʀ ʜᴀɪᴋᴏ-ᴍᴅx ʙᴏᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ !*");
+            return reply("*✅ ʏᴏᴜʀ 𝟐𝟒𝐑𝐄𝐀𝐋 𝐗𝐌𝐃 ʙᴏᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ !*");
         }
 
-        await reply("*🚀 ᴜᴘᴅᴀᴛɪɴɢ ʜᴀɪᴋᴏ-ᴍᴅx-ᴠ2 ʙᴏᴛ...*");
+        await reply("*🚀 ᴜᴘᴅᴀᴛɪɴɢ 𝟐𝟒𝐑𝐄𝐀𝐋 𝐗𝐌𝐃 ʙᴏᴛ...*");
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");
