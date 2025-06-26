@@ -22,12 +22,12 @@ async (conn, mek, m, { from, reply }) => {
 
         // Format 1: Classic Box
         const style1 = `
-╭╼⧼⧼𝐇𝐀𝐈𝐊𝐎 𝐌𝐃𝐗 𝐑𝐄𝐏𝐎⧽⧽╾╮
+╭╼⧼⧼𝟐𝟒𝐑𝐄𝐀𝐋 𝐗𝐌𝐃 𝐑𝐄𝐏𝐎⧽⧽╾╮
 ┇╭─────────────┈⊷
-┇┃♢ *sᴛᴀʀs*: ${repoData.stargazers_count}
-┇┃♢ *ғᴏʀᴋs*: ${repoData.forks_count}
-┇┃♢ *ᴜʀʟ*: ${repoData.html_url}
-┇┃♢ *sᴇssɪᴏɴ*:https://haiko-mdx-v2-session.onrender.com/pair
+┇┃♢ *ꜰᴏʟʟᴏᴡᴇʀꜱ 👥*: 2K+
+┇┃♢ *ᴘʀᴏꜰɪʟᴇ 👤*: ligang_.4real
+┇┃♢ *ɴᴀᴍᴇ 📝*: qutaybah🇹🇿☠️
+┇┃♢ *ʟɪɴᴋ 🔗*: https://instagram.com/ligang_.4real
 ┇┃♢ *ʙᴇsᴛ ʙᴏᴛ ᴡᴀ 2025-2026*
 ┇╰─────────────┈⊷
 ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╍╯
@@ -38,31 +38,17 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send image with repo info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/yzttl0.jpg` },
+            image: { url: `https://files.catbox.moe/8echg2.jpg` },
             caption: selectedStyle,
-            contextInfo: { 
-                mentionedJid: [m.sender],
-                forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363398101781980@newsletter',
-                    newsletterName: '𝐏𝐑𝐎𝐅-𝐗𝐓𝐑𝐄𝐌𝐄',
-                    serverMessageId: 143
-                }
-            }
-        }, { quoted: mek });
-
-        // Send audio
-        await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/6ifekx.mp3' },
-            mimetype: 'audio/mp4',
-            ptt: true,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true
             }
         }, { quoted: mek });
+
+        
+    
 
     } catch (error) {
         console.error("Repo command error:", error);
