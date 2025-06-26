@@ -93,7 +93,7 @@ async (conn, mek, m, {
 
       // Fallback for any other message type
       return await conn.sendMessage(from, {
-        text: m.quoted.text || "*📨 XTREME TAG*",
+        text: m.quoted.text || "*📨 24REAL TAG*",
         ...mentionAll
       }, { quoted: mek });
     }
