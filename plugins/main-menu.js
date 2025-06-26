@@ -20,13 +20,13 @@ cmd({
   desc: "Show all bot commands",
   category: "menu",
   react: "🪃",
-  audio: { mp3: 'https://files.catbox.moe/6ifekx.mp3' },
+  audio: { mp3: 'https://files.catbox.moe/w91ad3.mp3' },
   filename: __filename
 },
 async (haiko, mek, m, { from, reply }) => {
   try {
     const totalCommands = commands.length;
-    const date = moment().tz("America/Mexico").format("dddd, DD MMMM YYYY");
+    const date = moment().tz("Africa/Dar_es_salaam").format("dddd, DD MMMM YYYY");
 
     const uptime = () => {
       let sec = process.uptime();
@@ -36,18 +36,18 @@ async (haiko, mek, m, { from, reply }) => {
       return `${h}h ${m}m ${s}s`;
     };
 
-    let haikomenu = `╭━══⧼⧼⧼ 𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐 ⧽⧽⧽
+    let haikomenu = `╭━══⧼⧼⧼ 𝟐𝟒𝐑𝐄𝐀𝐋 𝐗𝐌𝐃 ⧽⧽⧽
 ┃╭╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┈⊷
 ┃╎♔♚ *ᴜsᴇʀ* : @${m.sender.split("@")[0]}
 ┃╎♔♚ *ᴛɪᴍᴇ* : ${uptime()}
 ┃╎♔♚ *ᴍᴏᴅᴇ* : *${config.MODE}*
 ┃╎♔♚ *ᴘʀᴇғɪx* : [${config.PREFIX}]
 ┃╎♔♚ *ᴘʟᴜɢɪɴs* :  ${totalCommands}
-┃╎♔♚ *ᴅᴇᴠᴇʟᴏᴘᴇʀ* : *ᴘʀᴏғ-xᴛʀᴇᴍᴇ*
+┃╎♔♚ *ᴅᴇᴠᴇʟᴏᴘᴇʀ* : *qutaybah*
 ┃╎♔♚ *ᴠᴇʀsɪᴏɴ* : *2.0.0*
 ┃╰╌╌╌╌╌╌╌╌╌╌╌╌╌╌┈⊷
 ╰━━━━━━━━━━━━━━━━━⊷
-> *ʙᴇsᴛ ʙᴏᴛ ᴡᴀ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙʏ xᴛʀᴇᴍᴇ*
+> *ʙᴇsᴛ ʙᴏᴛ ᴡᴀ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙʏ ʟɪɢᴀɴɢ*
 ╭━═❍ 𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔 ❍
 ┃╭─────────፨
 ┃╎➭  ɢʀᴏᴜᴘʟɪɴᴋ
@@ -335,22 +335,17 @@ async (haiko, mek, m, { from, reply }) => {
 ┃╰────────────፨
 ┃  *𝚆𝙰 𝙱𝙾𝚃 𝟸𝟶𝟸𝟻-𝟸𝟶𝟸𝟼*
 ╰━━━━━━━━━━━━━━━━━┈⊷
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇᴠ ᴘʀᴏғ xᴛʀᴇᴍᴇ*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs*`;
     //SEND AUDIO 
-    haiko.sendMessage(from, { audio: { url: `https://files.catbox.moe/6ifekx.mp3` }, caption: haikomenu })
+    haiko.sendMessage(from, { audio: { url: `https://files.catbox.moe/w91ad3.mp3` }, caption: haikomenu })
     
 await haiko.sendMessage(from, {
-      image: { url:`https://files.catbox.moe/eafhsi.jpg`},
+      image: { url:`https://files.catbox.moe/8echg2.jpg`},
       caption: haikomenu,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363398101781980@newsletter',
-          newsletterName: '𝐏𝐑𝐎𝐅-𝐗𝐓𝐑𝐄𝐌𝐄',
-          serverMessageId: 143
-        }
+        isForwarded: true
       }
     }, { quoted: mek });
 
