@@ -26,7 +26,7 @@ cmd({
     const botNumber = conn.user.id.split(":")[0] + '@s.whatsapp.net';
 
     if (m.mentionedJid.includes(botNumber)) {
-      const thumbnailRes = await axios.get(config.MENU_IMAGE_URL || "https://files.catbox.moe/sy6isf.jpg", {
+      const thumbnailRes = await axios.get(config.MENU_IMAGE_URL, {
         responseType: 'arraybuffer'
       });
       const thumbnailBuffer = Buffer.from(thumbnailRes.data, 'binary');
@@ -38,17 +38,7 @@ cmd({
         waveform: [99, 0, 99, 0, 99],
         contextInfo: {
           forwardingScore: 999,
-          isForwarded: true,
-          externalAdReply: {
-            title: config.BOT_NAME || "𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐 🥀",
-            body: config.DESCRIPTION || "> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx*",
-            mediaType: 1,
-            renderLargerThumbnail: true,
-            thumbnail: thumbnailBuffer,
-            mediaUrl: "https://i.ibb.co/Kp634Kg9/3895.jpg", // Static image URL
-            sourceUrl: "https://wa.me/message/yourself",
-            showAdAttribution: true
-          }
+          isForwarded: true
         }
       }, { quoted: m });
     }
