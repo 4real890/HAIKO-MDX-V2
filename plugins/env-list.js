@@ -26,7 +26,7 @@ async (conn, mek, m, { from, quoted, reply, isOwner }) => {
         const isEnabled = (value) => value && value.toString().toLowerCase() === "true";
 
         let envSettings = `
-╭───『 *HAIKO-MDX-V2 CONFIG* 』───❏
+╭───『 *24REAL XMD CONFIG* 』───❏
 │
 ├─❏ *🤖 BOT INFO*
 │  ├─∘ *Name:* ${config.BOT_NAME}
@@ -73,13 +73,13 @@ async (conn, mek, m, { from, quoted, reply, isOwner }) => {
 │  ├─∘ *Anti-Del Path:* ${config.ANTI_DEL_PATH}
 │  └─∘ *Dev Number:* ${config.DEV}
 │
-╰───『 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx* 』───❏
+╰───『 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs* 』───❏
 `;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/cad2f0.jpg` },
+                image: { url: `https://files.catbox.moe/lfd2i1.jpg` },
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -94,7 +94,7 @@ async (conn, mek, m, { from, quoted, reply, isOwner }) => {
         await conn.sendMessage(
             from,
             {
-                audio: { url: 'https://files.catbox.moe/4lriuj.mp3' },
+                audio: { url: 'https://files.catbox.moe/w91ad3.mp3' },
                 mimetype: 'audio/mp4',
                 ptt: true
             },
