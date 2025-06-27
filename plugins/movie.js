@@ -54,18 +54,13 @@ async (conn, mek, m, { from, reply, sender, args }) => {
             from,
             {
                 image: { 
-                    url: movie.poster && movie.poster !== 'N/A' ? movie.poster : 'https://files.catbox.moe/cad2f0.jpg'
+                    url: movie.poster && movie.poster !== 'N/A' ? movie.poster : 'https://files.catbox.moe/jzjli6.jpeg'
                 },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363372853772240@newsletter',
-                        newsletterName: '𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐',
-                        serverMessageId: 143
-                    }
+                    isForwarded: true
                 }
             },
             { quoted: mek }
