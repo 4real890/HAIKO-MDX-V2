@@ -166,7 +166,7 @@ cmd({
       return reply("❌ Failed to fetch a fun fact. Please try again.");
     }
 
-    const factMessage = `🧠 *Random Fun Fact* 🧠\n\n${fact}\n\nIsn't that interesting? 😄\n\n> *© Powered by JawadTechX*`;
+    const factMessage = `🧠 *Random Fun Fact* 🧠\n\n${fact}\n\nIsn't that interesting? 😄\n\n> *© Powered by ligang Techs*`;
 
     return reply(factMessage);
   } catch (error) {
@@ -198,7 +198,7 @@ async (conn, mek, m, { from, reply }) => {
         console.log('JSON response:', json);
 
         // Format the pickup line message
-        const pickupLine = `*Here's a pickup line for you:*\n\n"${json.pickupline}"\n\n> *© Powered By JawadTechX*`;
+        const pickupLine = `*Here's a pickup line for you:*\n\n"${json.pickupline}"\n\n> *© Powered By ligang Techs*`;
 
         // Send the pickup line to the chat
         await conn.sendMessage(from, { text: pickupLine }, { quoted: m });
@@ -288,8 +288,8 @@ cmd({
     const count = parseInt(countStr.trim());
     const message = messageParts.join(",").trim();
 
-    if (isNaN(count) || count <= 0 || count > 300) {
-      return reply("❎ Please specify a valid number between 1 and 300.");
+    if (isNaN(count) || count <= 0 || count > 700) {
+      return reply("❎ Please specify a valid number between 1 and 700.");
     }
 
     if (!message) {
