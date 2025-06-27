@@ -13,10 +13,10 @@ cmd({
 },
 async (conn, mek, m, { from, sender, pushname, reply }) => {
     try {
-        const dec = `╭━━⧼ 𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐 ⧽━━╮
+        const dec = `╭━━⧼ 𝟐𝟒𝐑𝐄𝐀𝐋 𝐗𝐌𝐃 ⧽━━╮
 ┃ ✨ *ᴏᴡɴᴇʀ:* ${config.OWNER_NAME}
 ┃ ⚙️ *ᴍᴏᴅᴇ:* ${config.MODE}
-┃ 📡 *ᴘʟᴀᴛғᴏʀᴍ:* GitHub
+┃ 📡 *ᴘʟᴀᴛғᴏʀᴍ:* REPLIT
 ┃ 🧠 *ᴛʏᴘᴇ:* NodeJs (Multi Device)
 ┃ ⌨️ *ᴘʀᴇғɪx:* ${config.PREFIX}
 ┃ 🧾 *ᴠᴇʀsɪᴏɴ:* 2.0.0 ʙᴇᴛᴀ
@@ -40,23 +40,18 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
 ┃⦉ ʟᴏɢᴏ
 ┃⦉ ʀᴇᴘᴏ
 ╰━━━━━━━━━━━━━━━━━━╯
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴇᴠ xᴛʀᴇᴍᴇ*
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs*
 `;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/2vosmn.jpg` },
+                image: { url: `https://files.catbox.moe/lhjss2.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363398101781980@newsletter',
-                        newsletterName: '𝐏𝐑𝐎𝐅-𝐗𝐓𝐑𝐄𝐌𝐄',
-                        serverMessageId: 143
-                    }
+                    isForwarded: true
                 }
             },
             { quoted: mek }
@@ -70,12 +65,7 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363398101781980@newsletter',
-                    newsletterName:'𝐏𝐑𝐎𝐅-𝐗𝐓𝐑𝐄𝐌𝐄',
-                    serverMessageId: 143
-                }
+                isForwarded: true
             }
         }, { quoted: mek });
 
@@ -134,17 +124,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/rvopa2.jpg` },
+                image: { url: `https://files.catbox.moe/7hixxf.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363398101781980@newsletter',
-                        newsletterName: "𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐🪀",
-                        serverMessageId: 143
-                    }
+                    isForwarded: true
                 }
             },
             { quoted: mek }
@@ -195,22 +180,17 @@ async (conn, mek, m, { from, quoted, reply }) => {
 ┃◈┃• cringe @tag
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs*`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/n8o5y2.jpg` },
+                image: { url: `https://files.catbox.moe/b0qyzu.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363398101781980@newsletter',
-                        newsletterName: '𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐🪀',
-                        serverMessageId: 144
-                    }
+                    isForwarded: true
                 }
             },
             { quoted: mek }
@@ -278,22 +258,17 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• tiks
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs*`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/7y24v8.jpg` },
+                image: { url: `https://files.catbox.moe/tkiiuk.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363398101781980@newsletter',
-                        newsletterName: '𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐🪀',
-                        serverMessageId: 143
-                    }
+                    isForwarded: true
                 }
             },
             { quoted: mek }
@@ -356,22 +331,17 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• tagadmins
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs*`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/7y24v8.jpg` },
+                image: { url: `https://files.catbox.moe/tkiiuk.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363398101781980@newsletter',
-                        newsletterName: '𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐🪀',
-                        serverMessageId: 143
-                    }
+                    isForwarded: true
                 }
             },
             { quoted: mek }
@@ -423,24 +393,19 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• poke
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs*`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/rvopa2.jpg` },
+                image: { url: `https://files.catbox.moe/2vosmn.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363398101781980@newsletter',
-                        newsletterName: '𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐🪀',
-                        serverMessageId: 143
-                    }
+                    isForwarded: true
                 }
-            },
+          },
             { quoted: mek }
         );
 
@@ -494,22 +459,17 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• ytv
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs*`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/7y24v8.jpg` },
+                image: { url: `https://files.catbox.moe/9jl9ol.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363398101781980@newsletter',
-                        newsletterName: '𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐🪀',
-                        serverMessageId: 143
-                    }
+                    isForwarded: true
                 }
             },
             { quoted: mek }
@@ -546,22 +506,17 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• restart
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs*`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/rvopa2.jpg` },
+                image: { url: `https://files.catbox.moe/5k22em.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363398101781980@newsletter',
-                        newsletterName: '𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐🪀',
-                        serverMessageId: 143
-                    }
+                    isForwarded: true
                 }
             },
             { quoted: mek }
@@ -605,22 +560,17 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• jid
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs*`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/7y24v8.jpg` },
+                image: { url: `https://files.catbox.moe/5k22em.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363398101781980@newsletter',
-                        newsletterName: '𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐🪀',
-                        serverMessageId: 143
-                    }
+                    isForwarded: true
                 }
             },
             { quoted: mek }
@@ -666,22 +616,17 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• readmore
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs*`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/rvopa2.jpg` },
+                image: { url: `https://files.catbox.moe/b0qyzu.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363398101781980@newsletter',
-                        newsletterName: '𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐🪀',
-                        serverMessageId: 143
-                    }
+                    isForwarded: true
                 }
             },
             { quoted: mek }
@@ -735,22 +680,17 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• naruto
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs*`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/7y24v8.jpg` },
+                image: { url: `https://files.catbox.moe/tkiiuk.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363398101781980@newsletter',
-                        newsletterName: '𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐🪀',
-                        serverMessageId: 143
-                    }
+                    isForwarded: true
                 }
             },
             { quoted: mek }
@@ -794,22 +734,17 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• copilot
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɪᴋᴏ ᴍᴅx*`;
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟɪɢᴀɴɢ ᴛᴇᴄʜs*`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/rvopa2.jpg` },
+                image: { url: `https://files.catbox.moe/lhjss2.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363398101781980@newsletter',
-                        newsletterName: '𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐🪀',
-                        serverMessageId: 143
-                    }
+                    isForwarded: true
                 }
             },
             { quoted: mek }
