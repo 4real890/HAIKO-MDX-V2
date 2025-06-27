@@ -46,12 +46,7 @@ async (conn, mek, m) => {
             text: message,
             contextInfo: {
                 forwardingScore: 999,
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: fakeNewsletterJid,
-                    newsletterName: fakeNewsletterName,
-                    serverMessageId: serverMessageId
-                }
+                isForwarded: true
             }
         },
         { quoted: mek }
