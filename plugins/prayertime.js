@@ -53,17 +53,12 @@ async(conn, mek, m, {from, l, quoted, body, isCmd, command, args, q, isGroup, se
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/cad2f0.jpg` }, // Image URL here
+                image: { url: `https://files.catbox.moe/swpr8s.jpg` }, // Image URL here
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363372853772240@newsletter',
-                        newsletterName: '𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟐',
-                        serverMessageId: 143
-                    }
+                    isForwarded: true
                 }
             },
             { quoted: mek }
