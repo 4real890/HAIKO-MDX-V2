@@ -22,7 +22,7 @@ cmd(
     async (conn, mek, m, { quoted, args, q, reply, from }) => {
         if (!mek.quoted) return reply(`*REPLY TO ANY STICKER.*`);
         if (!q) return reply(`𝗣𝗟𝗘𝗔𝗦𝗘 𝗣𝗥𝗢𝗩𝗜𝗗𝗘 𝗔 𝗣𝗔𝗖𝗞 𝗡𝗔𝗠𝗘
-> *EXEMPLE .TAKE XTREME*`);
+> *EXAMPLE .TAKE 24REAL*`);
 
         let mime = mek.quoted.mtype;
         let pack = q;
@@ -60,7 +60,7 @@ cmd(
     async (conn, mek, m, { quoted, args, q, reply, from }) => {
         if (!mek.quoted) return reply(`*REPLY TO ANY IMAGE OR VIDEO, SIR.*`);
         let mime = mek.quoted.mtype;
-        let pack = Config.STICKER_NAME || "🌸𝐋𝐄 𝐌𝐄𝐂  𝐃𝐔𝐍𝐄 𝐒𝐄𝐔𝐋𝐄 𝐌𝐄𝐔𝐅☘️";
+        let pack = Config.STICKER_NAME;
         
         if (mime === "imageMessage" || mime === "stickerMessage") {
             let media = await mek.quoted.download();
